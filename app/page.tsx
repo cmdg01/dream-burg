@@ -58,7 +58,7 @@ export default function Home() {
                 <span className="text-[#FF7A00] font-semibold mb-2 block">WHY CHOOSE US</span>
                 <h2 className="text-4xl font-bold mb-6">Building Excellence, Delivering Trust</h2>
                 <p className="text-gray-600 mb-8 leading-relaxed">
-                  With decades of experience in the construction industry, we've built our reputation on quality, 
+                  With decades of experience in the construction industry, we&apos;ve built our reputation on quality, 
                   reliability, and exceptional customer service.
                 </p>
                 <div className="grid grid-cols-2 gap-6">
@@ -134,7 +134,7 @@ export default function Home() {
               {testimonials.map((testimonial) => (
                 <div key={testimonial.author} className="bg-gray-50 p-8 rounded-lg">
                   <div className="text-[#FF7A00] mb-4">★★★★★</div>
-                  <p className="text-gray-600 mb-6 italic">"{testimonial.content}"</p>
+                  <p className="text-gray-600 mb-6 italic">&quot;{testimonial.content}&quot;</p>
                   <div className="font-semibold">{testimonial.author}</div>
                   <div className="text-gray-500 text-sm">{testimonial.position}</div>
                 </div>
@@ -149,7 +149,7 @@ export default function Home() {
           <div className="container mx-auto px-4 text-center relative z-10">
             <h2 className="text-4xl font-bold mb-6">Ready to Start Your Project?</h2>
             <p className="mb-8 max-w-2xl mx-auto text-gray-300 leading-relaxed">
-            Let&apos;s work together to bring your construction vision to life. Our team of experts 
+              Let&apos;s work together to bring your construction vision to life. Our team of experts 
               is ready to help you achieve your goals.
             </p>
             <div className="flex gap-4 justify-center">
