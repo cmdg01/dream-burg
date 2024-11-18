@@ -29,8 +29,9 @@ export function useContactForm() {
       await new Promise(resolve => setTimeout(resolve, 1000)) // Simulated API call
       setSuccess(true)
       setFormData({ name: '', email: '', subject: '', message: '' })
-    } catch (err) {
+    } catch (error) {
       setError('Failed to submit form. Please try again.')
+      console.error('Form submission error:', error)
     } finally {
       setIsSubmitting(false)
     }

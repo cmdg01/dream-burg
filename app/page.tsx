@@ -19,8 +19,8 @@ export default function Home() {
               <span className="text-[#FF7A00] font-semibold mb-2 block">WHAT WE OFFER</span>
               <h2 className="text-4xl font-bold mb-4">Our Services</h2>
               <p className="text-gray-600 max-w-2xl mx-auto leading-relaxed">
-                We provide comprehensive construction solutions tailored to meet your specific needs and requirements, 
-                with over 20 years of industry experience.
+              We provide comprehensive construction solutions tailored to meet your specific needs and requirements, 
+              with over 10 years of industry experience.
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -149,7 +149,7 @@ export default function Home() {
           <div className="container mx-auto px-4 text-center relative z-10">
             <h2 className="text-4xl font-bold mb-6">Ready to Start Your Project?</h2>
             <p className="mb-8 max-w-2xl mx-auto text-gray-300 leading-relaxed">
-              Let's work together to bring your construction vision to life. Our team of experts 
+            Let&apos;s work together to bring your construction vision to life. Our team of experts 
               is ready to help you achieve your goals.
             </p>
             <div className="flex gap-4 justify-center">
