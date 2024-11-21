@@ -15,6 +15,34 @@ const services = [
     icon: "📐"
   },
   {
+    title: "Electrical",
+    description: "Complete electrical installation and maintenance services for all types of buildings.",
+    features: ["Wiring Installation", "Electrical Repairs", "Safety Inspections", "Lighting Systems"],
+    slug: "electrical",
+    icon: "⚡"
+  },
+  {
+    title: "Plumbing",
+    description: "Expert plumbing services for installation, maintenance, and repairs.",
+    features: ["Pipe Installation", "Drainage Systems", "Water Heaters", "Leak Detection"],
+    slug: "plumbing",
+    icon: "🔧"
+  },
+  {
+    title: "Roofing",
+    description: "Professional roofing solutions for residential and commercial buildings.",
+    features: ["Roof Installation", "Repairs & Maintenance", "Waterproofing", "Roof Inspections"],
+    slug: "roofing",
+    icon: "🏠"
+  },
+  {
+    title: "Bill of Quantity",
+    description: "Detailed cost estimation and quantity surveying services for construction projects.",
+    features: ["Cost Estimation", "Material Quantities", "Labor Calculations", "Project Budgeting"],
+    slug: "bill-of-quantity",
+    icon: "📋"
+  },
+  {
     title: "Borehole Drilling",
     description: "Expert borehole drilling services for water access and geological surveys.",
     features: ["Site Assessment", "Well Installation", "Pump Systems", "Water Quality Testing"],

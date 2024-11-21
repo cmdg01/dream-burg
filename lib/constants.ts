@@ -1,12 +1,13 @@
 export const COMPANY_NAME = 'DREAMBURG'
 export const COMPANY_ADDRESS = '222A duma Nyika, Masvingo'
-export const COMPANY_PHONE = '0783308833 / 0716899224'
+export const COMPANY_ADDRESS_2 = '1610 Shumba Street, Mucheke, Masvingo'
+export const COMPANY_PHONE = '0783308833 / 0716899224 / 0773682892'
 export const COMPANY_EMAIL = 'info@dreamburg.com'
 
 export const SOCIAL_LINKS = {
-  facebook: 'https://facebook.com/dreamburg',
+  facebook: 'https://www.facebook.com/profile.php?id=61561692561880',
   instagram: 'https://instagram.com/dreamburg',
-  linkedin: 'https://linkedin.com/company/dreamburg',
+  tiktok: 'https://vm.tiktok.com/ZMhWj4tgv/',
   youtube: 'https://youtube.com/dreamburg'
 }
 

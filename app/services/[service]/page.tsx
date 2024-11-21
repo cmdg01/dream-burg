@@ -9,15 +9,51 @@ import { generateMailtoLink } from "@/lib/utils/mailto"
 
 // Reference the services array from services/page.tsx
 const services = [
-  {
-    title: "Architecture",
-    description: "Professional architectural design and planning services for your projects.",
-    features: ["Custom Design", "3D Visualization", "Construction Documentation", "Project Planning"],
-    slug: "architecture",
-    icon: "📐",
-    image: "/architecture-services.jpg",
-    longDescription: "Our architectural services combine creative design with practical functionality. We offer comprehensive planning, detailed 3D visualization, and complete construction documentation to bring your vision to life. Our team works closely with clients to ensure every design meets both aesthetic and functional requirements."
-  },
+    {
+      title: "Architecture",
+      description: "Professional architectural design and planning services for your projects.",
+      features: ["Custom Design", "3D Visualization", "Construction Documentation", "Project Planning"],
+      slug: "architecture",
+      icon: "📐",
+      image: "/architecture-services.jpg",
+      longDescription: "Our architectural services combine creative design with practical functionality. We offer comprehensive planning, detailed 3D visualization, and complete construction documentation to bring your vision to life. Our team works closely with clients to ensure every design meets both aesthetic and functional requirements."
+    },
+    {
+      title: "Electrical",
+      description: "Complete electrical installation and maintenance services for all types of buildings.",
+      features: ["Wiring Installation", "Electrical Repairs", "Safety Inspections", "Lighting Systems"],
+      slug: "electrical",
+      icon: "⚡",
+      image: "/electrical.jpg",
+      longDescription: "Our comprehensive electrical services cover everything from initial installation to maintenance and repairs. We prioritize safety and efficiency in all our electrical work, ensuring your property meets all required codes and standards. Our experienced technicians handle both residential and commercial electrical needs with expertise."
+    },
+    {
+      title: "Plumbing",
+      description: "Expert plumbing services for installation, maintenance, and repairs.",
+      features: ["Pipe Installation", "Drainage Systems", "Water Heaters", "Leak Detection"],
+      slug: "plumbing",
+      icon: "🔧",
+      image: "/plumbing.jpg",
+      longDescription: "Our professional plumbing services ensure your water systems function perfectly. From installation of new plumbing systems to emergency repairs, we handle all aspects of residential and commercial plumbing. We use the latest technology for leak detection and provide efficient solutions for all plumbing needs."
+    },
+    {
+      title: "Roofing",
+      description: "Professional roofing solutions for residential and commercial buildings.",
+      features: ["Roof Installation", "Repairs & Maintenance", "Waterproofing", "Roof Inspections"],
+      slug: "roofing",
+      icon: "🏠",
+      image: "/roofing.jpg",
+      longDescription: "We provide comprehensive roofing services that protect your property from the elements. Our experienced team handles everything from new roof installations to repairs and maintenance. We work with various roofing materials and ensure proper waterproofing for long-lasting protection."
+    },
+    {
+      title: "Bill of Quantity",
+      description: "Detailed cost estimation and quantity surveying services for construction projects.",
+      features: ["Cost Estimation", "Material Quantities", "Labor Calculations", "Project Budgeting"],
+      slug: "bill-of-quantity",
+      icon: "📋",
+      image: "/quantity-survey.jpg",
+      longDescription: "Our quantity surveying services provide accurate cost estimations and detailed material calculations for construction projects. We help optimize your project budget by providing comprehensive bills of quantities, material takeoffs, and labor cost analysis. Our detailed reports ensure transparency and efficient project planning."
+    },
   {
     title: "Borehole Drilling",
     description: "Expert borehole drilling services for water access and geological surveys.",

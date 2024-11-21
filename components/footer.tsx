@@ -90,10 +90,11 @@ export function Footer() {
                 <div className="flex items-start gap-3">
                   <MapPin className="h-5 w-5 text-[#FF7A00] mt-1" />
                   <p className="text-gray-400">222A duma Nyika, Masvingo</p>
+                  <p className="text-gray-400">1610 Shumba Street, Mucheke, Masvingo</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <Phone className="h-5 w-5 text-[#FF7A00] mt-1" />
-                  <p className="text-gray-400">0783308833 / 0716899224</p>
+                  <p className="text-gray-400">0783308833 / 0716899224 / 0773682892</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <Mail className="h-5 w-5 text-[#FF7A00] mt-1" />
