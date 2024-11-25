@@ -162,6 +162,15 @@ const services = [
     icon: "🪑",
     image: "/furnishings.jpg",
     longDescription: "We provide professional furniture fitting services for all your needs. From custom built-ins to kitchen units, we ensure perfect installation and alignment."
+  },
+  {
+    title: "Fencing",
+    description: "Professional fencing solutions for residential and commercial properties.",
+    features: ["Security Fencing", "Decorative Fencing", "Gate Installation", "Fence Repairs"],
+    slug: "fencing",
+    icon: "🔒",
+    image: "/fencing-services.jpg",
+    longDescription: "Our professional fencing services provide security and aesthetic appeal to your property. We offer a range of fencing solutions including security fencing, decorative options, and custom gate installations. Our experienced team ensures proper installation and durability for long-lasting protection."
   }
 ]
 

@@ -1,25 +1,22 @@
-export function generateMailtoLink(formData: {
-    name: string
-    email: string
-    subject?: string
-    message: string
-    service?: string
-  }) {
-    const { name, email, subject, message, service } = formData
+import { COMPANY_EMAIL } from "@/lib/constants"
+
+interface MailtoData {
+  name: string
+  email: string
+  message: string
+  service?: string
+}
+
+export function generateMailtoLink(data: MailtoData) {
+  const subject = data.service 
+    ? `Service Inquiry: ${data.service}`
+    : 'Website Contact Form'
     
-    let emailSubject = subject || 'Contact Form Submission'
-    if (service) {
-      emailSubject = `Service Request: ${service}`
-    }
-  
-    const emailBody = `
-  Name: ${name}
-  Email: ${email}
-  ${message}
-  
-  ---
-  Sent from Dreamburg website
-    `.trim()
-  
-    return `mailto:${process.env.NEXT_PUBLIC_CONTACT_EMAIL || 'info@dreamburg.com'}?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`
-  }
+  const body = `
+Name: ${data.name}
+Email: ${data.email}
+
+${data.message}
+`
+  return `mailto:${COMPANY_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
+}

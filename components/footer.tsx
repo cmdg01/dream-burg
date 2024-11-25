@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Facebook, Instagram, MapPin, Phone, Mail, X } from "lucide-react"
 import Link from "next/link"
+import { COMPANY_EMAIL, COMPANY_ADDRESS, COMPANY_ADDRESS_2, COMPANY_PHONE, SOCIAL_LINKS } from "@/lib/constants"
 
 export function Footer() {
   return (
@@ -11,24 +12,6 @@ export function Footer() {
       <div className="bg-[#1E1E1E] text-white">
         {/* Main Footer Content */}
         <div className="container mx-auto px-4">
-          {/* Newsletter Section */}
-          <div className="py-12 border-b border-white/10">
-            <div className="max-w-xl mx-auto text-center">
-              <h3 className="text-2xl font-bold mb-4">Subscribe to Our Newsletter</h3>
-              <p className="text-gray-400 mb-6">Stay updated with our latest projects and industry insights</p>
-              <div className="flex gap-2">
-                <Input
-                  type="email"
-                  placeholder="Enter your email"
-                  className="bg-white/5 border-white/10 text-white placeholder:text-gray-500"
-                />
-                <Button className="bg-[#FF7A00] hover:bg-[#FF7A00]/90 text-white px-6">
-                  Subscribe
-                </Button>
-              </div>
-            </div>
-          </div>
-
           {/* Footer Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 py-12">
             {/* Company Info */}
@@ -40,10 +23,20 @@ export function Footer() {
                 Building dreams into reality with innovation and excellence in construction.
               </p>
               <div className="flex gap-4">
-                <Link href="#" className="text-gray-400 hover:text-[#FF7A00] transition-colors">
+                <Link 
+                  href={SOCIAL_LINKS.facebook} 
+                  className="text-gray-400 hover:text-[#FF7A00] transition-colors"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Facebook className="h-5 w-5" />
                 </Link>
-                <Link href="#" className="text-gray-400 hover:text-[#FF7A00] transition-colors">
+                <Link 
+                  href={SOCIAL_LINKS.instagram} 
+                  className="text-gray-400 hover:text-[#FF7A00] transition-colors"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Instagram className="h-5 w-5" />
                 </Link>
                 <Link href="#" className="text-gray-400 hover:text-[#FF7A00] transition-colors">
@@ -89,16 +82,18 @@ export function Footer() {
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
                   <MapPin className="h-5 w-5 text-[#FF7A00] mt-1" />
-                  <p className="text-gray-400">222A duma Nyika, Masvingo</p>
-                  <p className="text-gray-400">1610 Shumba Street, Mucheke, Masvingo</p>
+                  <div>
+                    <p className="text-gray-400">{COMPANY_ADDRESS}</p>
+                    <p className="text-gray-400">{COMPANY_ADDRESS_2}</p>
+                  </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <Phone className="h-5 w-5 text-[#FF7A00] mt-1" />
-                  <p className="text-gray-400">0783308833 / 0716899224 / 0773682892</p>
+                  <p className="text-gray-400">{COMPANY_PHONE}</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <Mail className="h-5 w-5 text-[#FF7A00] mt-1" />
-                  <p className="text-gray-400">info@dreamburg.com</p>
+                  <p className="text-gray-400">{COMPANY_EMAIL}</p>
                 </div>
               </div>
             </div>

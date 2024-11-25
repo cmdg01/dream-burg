@@ -125,6 +125,13 @@ const services = [
     features: ["Custom Fitting", "Built-in Furniture", "Assembly", "Kitchen Units"],
     slug: "furniture-fitting",
     icon: "🪑"
+  },
+  {
+    title: "Fencing",
+    description: "Professional fencing solutions for residential and commercial properties.",
+    features: ["Security Fencing", "Decorative Fencing", "Gate Installation", "Fence Repairs"],
+    slug: "fencing",
+    icon: "🔒"
   }
 ]
   
