@@ -171,6 +171,15 @@ const services = [
     icon: "🔒",
     image: "/fencing-services.jpg",
     longDescription: "Our professional fencing services provide security and aesthetic appeal to your property. We offer a range of fencing solutions including security fencing, decorative options, and custom gate installations. Our experienced team ensures proper installation and durability for long-lasting protection."
+  },
+  {
+    title: "Procurement",
+    description: "Comprehensive procurement services for construction materials and equipment.",
+    features: ["Material Sourcing", "Equipment Procurement", "Supplier Management", "Cost Optimization"],
+    slug: "procurement",
+    icon: "🛍️",
+    image: "/procurement-services.jpg",
+    longDescription: "Our procurement services ensure you get the best quality construction materials and equipment at competitive prices. We handle everything from material sourcing to supplier management, helping optimize costs while maintaining quality standards for your construction projects."
   }
 ]
 

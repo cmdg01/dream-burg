@@ -132,6 +132,13 @@ const services = [
     features: ["Security Fencing", "Decorative Fencing", "Gate Installation", "Fence Repairs"],
     slug: "fencing",
     icon: "🔒"
+  },
+  {
+    title: "Procurement",
+    description: "Comprehensive procurement services for construction materials and equipment.",
+    features: ["Material Sourcing", "Equipment Procurement", "Supplier Management", "Cost Optimization"],
+    slug: "procurement",
+    icon: "🛍️"
   }
 ]
   
