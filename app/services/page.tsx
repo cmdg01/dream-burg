@@ -139,6 +139,13 @@ const services = [
     features: ["Material Sourcing", "Equipment Procurement", "Supplier Management", "Cost Optimization"],
     slug: "procurement",
     icon: "🛍️"
+  },
+  {
+    title: "Window Frosting",
+    description: "Professional window frosting and privacy solutions.",
+    features: ["Privacy Solutions", "Decorative Frosting", "UV Protection", "Custom Designs"],
+    slug: "window-frosting",
+    icon: "🪟"
   }
 ]
   

@@ -6,6 +6,7 @@ import { CheckCircle2 } from "lucide-react"
 import { notFound } from "next/navigation"
 import Image from "next/image"
 import { generateMailtoLink } from "@/lib/utils/mailto"
+import { useState } from "react"
 
 // Reference the services array from services/page.tsx
 const services = [
@@ -180,6 +181,15 @@ const services = [
     icon: "🛍️",
     image: "/procurement-services.jpg",
     longDescription: "Our procurement services ensure you get the best quality construction materials and equipment at competitive prices. We handle everything from material sourcing to supplier management, helping optimize costs while maintaining quality standards for your construction projects."
+  },
+  {
+    title: "Window Frosting",
+    description: "Professional window frosting and privacy solutions.",
+    features: ["Privacy Solutions", "Decorative Frosting", "UV Protection", "Custom Designs"],
+    slug: "window-frosting",
+    icon: "🪟",
+    image: "/window-frosting.jpg",
+    longDescription: "Our window frosting services provide elegant privacy solutions for your home or office. We offer both functional and decorative frosting options, UV protection, and custom designs to match your aesthetic preferences while maintaining natural light flow."
   }
 ]
 
